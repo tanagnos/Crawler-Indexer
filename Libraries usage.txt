@@ -1,0 +1,33 @@
+﻿1) In Crawler_Indexer_run.py where the execution of the crawler starts inputs must be readen from user manually.
+2) The page that crawling start must be written manually and not copy-paste.
+3) The libraries that uses every .py file are:
+
+crawler.py: urllib, from the urllib.request the urlopen and from bs4 the BeautifulSoup.
+
+
+Crawler_Indexer_run.py: threading, shutil, and from queue the Queue.
+
+
+csv_handler.py: pandas, os.
+
+
+file_handler.py: os.
+
+
+find_links.py: from html.parser the HTMLParser and from urllib the parse.
+
+
+Index.py: re, string, from nltk.corpus the stopwords, from nltk.stem the WordNetLemmatizer, and from
+nltk.tokenize the word_tokenize.
+
+
+QueryRun.py: re, string, from nltk.corpus the stopwords, from nltk.stem the WordNetLemmatizer, and from
+nltk.tokenize the word_tokenize.
+
+
+server.py: logging, urllib, from http.server the SimpleHTTPRequestHandler and HTTPServer, and from bs4 the BeautifulSoup.
+
+
+
+Similarity.py: csv, math, and pandas.
+
